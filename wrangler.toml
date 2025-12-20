@@ -1,0 +1,6 @@
+name = "tulinarchive"
+compatibility_date = "2025-12-20"
+
+[assets]
+directory = "./site"
+not_found_handling = "404-page"
