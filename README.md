@@ -2,8 +2,6 @@
 
 本仓库存储了约 300 张「东衙」时期的涂林作品扫描件，旨在保存和展示涂林的早期发展。
 
-**网页目录**：<https://tulinarchive.tokenisite.top>（[备用](https://tulinarchive.tokenilab.workers.dev)）
-
 ## 仓库结构
 
 ```
@@ -31,9 +29,18 @@ README.md
 build.sh          # 部署脚本
 ```
 
+## 浏览
+
+在克隆本仓库到本地后，您可以：
+
+- 直接通过目录阅读；
+- 将 `/data` 目录移入 `/site`，然后在 `/site` 目录使用 `python -m http.server 8080` 启动网页服务器。
+
+另外，您也可以使用 `wrangler.toml` 作为 Cloudflare Workers 配置，部署静态页面托管。
+
 ## 维护
 
-档案馆馆员「讹字」目前匿名负责维护本仓库和托管在 Cloudflare 上的站点。
+档案馆馆员「讹字」目前匿名负责维护本仓库。
 
 仓库所有者（[Tokenicrat 词元](https://github.com/tokenicrat)）受授权，代为发布。任何联系请使用主页邮件。
 
